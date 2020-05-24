@@ -1,0 +1,27 @@
+version: '3'
+services:
+  nginx:
+    image: nginx:latest
+    container_name: blog_nginx
+    expose:
+      - 80
+    ports:
+      - "9000:80"
+    volumes:
+      - ./build/source/resources/static/:/var/www/html/admin/:rw
+      - ./build/source/resources/templates/themes/:/var/www/html/themes/:rw
+      - ./upload/:/var/www/html/upload/:ro
+      - ./conf:/etc/nginx/conf.d:ro
+    restart: always
+    depends_on:
+      - tale
+  tale:
+    build: ./build/
+    container_name: blog_tale
+    expose:
+      - 9000
+    volumes:
+      - ./db/tale.db:/data/tale/resources/tale.db:rw
+      - ./db/schema.sql:/data/tale/resources/schema.sql:rw
+      - ./logs/:/data/tale/logs/:rw
+      - ./upload/:/data/tale/resources/upload/:rw

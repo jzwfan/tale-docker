@@ -1,0 +1,495 @@
+2020/05/23 17:31:02  INFO [              main ]                       c.b.Blade :  command line args: {"app.env":"prod"}
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : app.env          » prod
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : app.pid          » 19772
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : app.devMode      » false
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : jdk.version      » 1.8.0_201
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : user.dir         » /Users/jzwfan/data/docker-data/tale/build/source
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : java.io.tmpdir   » /var/folders/b1/ryb2gk0j6pb028g9_g1jmhzm0000gn/T/
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : user.timezone    » Asia/Shanghai
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : file.encoding    » UTF-8
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : app.classpath    » /Users/jzwfan/data/docker-data/tale/build/source/resources/
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  POST    /admin/api/attach/upload
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /admin/api/logs
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /admin
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /feed.xml
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /atom.xml
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /categories.html
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  POST    /admin/api/article/delete/:cid
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /tags
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /admin/api/tags
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /feed
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /admin/index
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /admin/api/categories
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /admin/api/attaches
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /category/:keyword/:page.html
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  POST    /admin/api/article/new
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /admin/template/content
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /admin/api/articles/content/:cid
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /admin/theme/setting
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /admin/api/articles
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  POST    /admin/api/category/delete/:mid
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /admin/api/themes
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  POST    /admin/profile
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /admin/article/edit/:cid
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /page/:page
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /admin/profile
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /categories
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /search.html
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  POST    /admin/api/category/save
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  POST    /admin/api/comment/delete/:coid
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /admin/login
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  POST    /admin/api/attach/delete/:id
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  POST    /admin/api/page/delete/:cid
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  POST    /admin/api/template/save
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /admin/api/options
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /admin/:page
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  POST    /install
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /article/:cid.html
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  POST    /admin/api/page/new
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /admin/api/pages
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /tags.html
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /sitemap
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /admin/template
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /search
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /sitemap.xml
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  POST    /admin/password
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /:cid.html
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  POST    /admin/api/themes/setting
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /admin/page/edit/:cid
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /search/:keyword/:page
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /category/:keyword/:page
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  POST    /admin/api/themes/active
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  POST    /admin/api/advanced/save
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /admin/:module/:page
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /tag/:name/:page
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  ALL     /logout
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  POST    /admin/api/comment/status
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /tag/:name.html
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  POST    /admin/api/page/update
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /page/:page.html
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /admin/api/articles/:cid
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /search/:keyword.html
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  POST    /admin/api/article/update
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /search/:keyword/:page.html
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /archives.html
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  POST    /comment
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /archives
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /admin/api/comments
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /tag/:name
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /article/:cid
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /category/:keyword.html
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /install
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  POST    /admin/login
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /:cid
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  POST    /admin/api/comment/reply
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /tag/:name/:page.html
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  POST    /admin/api/options/save
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /category/:keyword
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add route  GET     /search/:keyword
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add  hook  BEFORE  /.*
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : » Add  hook  AFTER   /.*
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]                c.t.b.SqliteJdbc : blade dev mode: false
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]                c.t.b.SqliteJdbc : load sqlite database path [/Users/jzwfan/data/docker-data/tale/build/source/resources//tale.db]
+2020/05/23 17:31:02  INFO [          _(:3」∠)_ ]                c.t.b.SqliteJdbc : load sqlite database src [jdbc:sqlite:///Users/jzwfan/data/docker-data/tale/build/source/resources//tale.db]
+2020/05/23 17:31:03  INFO [          _(:3」∠)_ ]                c.t.b.SqliteJdbc : database path is: /Users/jzwfan/data/docker-data/tale/build/source/resources//tale.db
+2020/05/23 17:31:03  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : » Register bean: [com.tale.controller.admin.AdminApiController@35d36274, com.tale.bootstrap.Bootstrap@5bf9510b, com.blade.Environment@35b89b26, com.tale.service.ContentsService@461b096f, com.tale.controller.ArticleController@6875131a, com.tale.controller.admin.AuthController@79156616, com.tale.service.SiteService@885a3b9, com.tale.bootstrap.Bootstrap@5bf9510b, com.tale.service.OptionsService@16cb93b7, com.blade.security.web.csrf.CsrfMiddleware@56e6afb7, com.tale.controller.IndexController@41156ab, com.tale.service.CommentsService@212cb5fb, com.tale.controller.CategoryController@6bb0cc42, com.tale.controller.admin.IndexController@8485d94, com.tale.controller.InstallController@6e2e638, com.tale.controller.admin.PagesController@42251872, com.tale.service.MetasService@2f9a0ea8, com.tale.hooks.BaseWebHook@65f44232, com.blade.security.web.csrf.CsrfMiddleware@56e6afb7, com.tale.task.PageViewTask@74b6bb92, com.tale.controller.admin.SystemController@1ebacbfe]
+2020/05/23 17:31:03  INFO [          _(:3」∠)_ ]               j.t.JetEngineImpl : JetEngine.version = 2.1.6
+2020/05/23 17:31:03  INFO [          _(:3」∠)_ ]               j.t.JetEngineImpl : JetEngine.loader = jetbrick.template.loader.ClasspathResourceLoader, root = /templates/, reload = true
+2020/05/23 17:31:03  INFO [          _(:3」∠)_ ]           j.t.r.c.ClassResolver : import package: java.lang.*
+2020/05/23 17:31:03  INFO [          _(:3」∠)_ ]           j.t.r.c.ClassResolver : import package: java.util.*
+2020/05/23 17:31:03  INFO [          _(:3」∠)_ ]   j.t.r.m.MethodInvokerResolver : import 38 methods from class jetbrick.template.runtime.buildin.JetMethods
+2020/05/23 17:31:03  INFO [          _(:3」∠)_ ] j.t.r.f.FunctionInvokerResolver : import 11 functions from class jetbrick.template.runtime.buildin.JetFunctions
+2020/05/23 17:31:03  INFO [          _(:3」∠)_ ]      j.t.r.t.TagInvokerResolver : import 2 tags from class jetbrick.template.runtime.buildin.JetTags
+2020/05/23 17:31:03  INFO [          _(:3」∠)_ ]            j.t.r.GlobalResolver : Scanning @JetMethods, @JetFunctions, @JetTags implements from [com.tale] ...
+2020/05/23 17:31:03  INFO [          _(:3」∠)_ ]            j.t.r.GlobalResolver : Found 0 annotated classes, time elapsed 15 ms.
+2020/05/23 17:31:03  INFO [          _(:3」∠)_ ]             j.t.JetTemplateImpl : Loading template: /comm/macros.html
+2020/05/23 17:31:03  INFO [          _(:3」∠)_ ] j.t.r.f.FunctionInvokerResolver : import 22 functions from class com.tale.extension.Commons
+2020/05/23 17:31:03  INFO [          _(:3」∠)_ ] j.t.r.f.FunctionInvokerResolver : import 52 functions from class com.tale.extension.Theme
+2020/05/23 17:31:03  INFO [          _(:3」∠)_ ] j.t.r.f.FunctionInvokerResolver : import 4 functions from class com.tale.extension.AdminCommons
+2020/05/23 17:31:03  INFO [          _(:3」∠)_ ]      j.t.r.t.TagInvokerResolver : import 1 tags from class com.tale.extension.JetTag
+2020/05/23 17:31:03 DEBUG [          _(:3」∠)_ ]                       o.s.Query : Execute SQL => SELECT * FROM t_options
+2020/05/23 17:31:03 DEBUG [          _(:3」∠)_ ]                       o.s.Query : Parameters  => []
+2020/05/23 17:31:03 DEBUG [          _(:3」∠)_ ]                       o.s.Query : Total       => 9 ms, execution: 3 ms, reading and parsing: 6 ms; executed [null]
+2020/05/23 17:31:03 DEBUG [          _(:3」∠)_ ]                       o.s.Query : Execute SQL => SELECT * FROM t_options WHERE name = ? LIMIT 1
+2020/05/23 17:31:03 DEBUG [          _(:3」∠)_ ]                       o.s.Query : Parameters  => [safe_remember_me]
+2020/05/23 17:31:03 DEBUG [          _(:3」∠)_ ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:31:03  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : » Use NioEventLoopGroup
+2020/05/23 17:31:03  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : » tale initialize successfully, Time elapsed: 785 ms
+2020/05/23 17:31:03  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : » Blade start with  0.0.0.0:9000 
+2020/05/23 17:31:03  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : » Open browser access http://127.0.0.1:9000 ⚡
+
+2020/05/23 17:31:09  INFO [   worker@thread-1 ]               c.t.h.BaseWebHook : IP: 27.0.0.1, UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020/05/23 17:31:09  INFO [   worker@thread-1 ]       c.b.s.n.HttpServerHandler :  200   284ms  GET    /
+2020/05/23 17:31:10  INFO [   worker@thread-1 ]               c.t.h.BaseWebHook : IP: 27.0.0.1, UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020/05/23 17:31:10  INFO [   worker@thread-1 ]       c.b.s.n.HttpServerHandler :  200   258ms  GET    /install
+2020/05/23 17:31:10  INFO [   worker@thread-1 ]             j.t.JetTemplateImpl : Loading template: install.html
+2020/05/23 17:31:10  WARN [  worker@thread-10 ] c.b.m.h.DefaultExceptionHandler :  404          GET    /static/admin/plugins/jquery-steps/1.1.0/axios.min.map
+2020/05/23 17:31:10  INFO [  worker@thread-10 ]             j.t.JetTemplateImpl : Loading template: /comm/error_404.html
+2020/05/23 17:31:15  INFO [  worker@thread-10 ]               c.t.h.BaseWebHook : IP: 27.0.0.1, UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020/05/23 17:31:15  INFO [  worker@thread-10 ]       c.b.s.n.HttpServerHandler :  200   257ms  GET    /
+2020/05/23 17:31:15  INFO [  worker@thread-10 ]               c.t.h.BaseWebHook : IP: 27.0.0.1, UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020/05/23 17:31:15  INFO [  worker@thread-10 ]       c.b.s.n.HttpServerHandler :  200   256ms  GET    /install
+2020/05/23 17:31:15  WARN [  worker@thread-13 ] c.b.m.h.DefaultExceptionHandler :  404          GET    /static/admin/plugins/jquery-validate/1.15.1/localization/messages_zh.min.js.map
+2020/05/23 17:32:06  INFO [  worker@thread-14 ]               c.t.h.BaseWebHook : IP: 27.0.0.1, UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020/05/23 17:32:06 DEBUG [  worker@thread-14 ]                       o.s.Query : Execute SQL => INSERT INTO t_users(username, password, email, screen_name, created) VALUES (?, ?, ?, ?, ?)
+2020/05/23 17:32:06 DEBUG [  worker@thread-14 ]                       o.s.Query : Parameters  => [jzwfan, 9772597a236a2b2194f07d3478d60399, jzwfan@qq.com, jzwfan, 1590226326]
+2020/05/23 17:32:06 DEBUG [  worker@thread-14 ]                       o.s.Query : total: 3 ms; executed update [No name]
+2020/05/23 17:32:06 DEBUG [  worker@thread-14 ]                       o.s.Query : Execute SQL => INSERT INTO t_logs(action, author_id, ip, created) VALUES (?, ?, ?, ?)
+2020/05/23 17:32:06 DEBUG [  worker@thread-14 ]                       o.s.Query : Parameters  => [初始化站点, 2, , 1590226326]
+2020/05/23 17:32:06 DEBUG [  worker@thread-14 ]                       o.s.Query : total: 1 ms; executed update [No name]
+2020/05/23 17:32:06 DEBUG [  worker@thread-14 ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM t_options WHERE name = ? LIMIT 1
+2020/05/23 17:32:06 DEBUG [  worker@thread-14 ]                       o.s.Query : Parameters  => [site_title]
+2020/05/23 17:32:06 DEBUG [  worker@thread-14 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:32:06 DEBUG [  worker@thread-14 ]                       o.s.Query : Execute SQL => UPDATE t_options SET value = ? WHERE name = ?
+2020/05/23 17:32:06 DEBUG [  worker@thread-14 ]                       o.s.Query : Parameters  => [婵博客, site_title]
+2020/05/23 17:32:06 DEBUG [  worker@thread-14 ]                       o.s.Query : total: 1 ms; executed update [No name]
+2020/05/23 17:32:06 DEBUG [  worker@thread-14 ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM t_options WHERE name = ? LIMIT 1
+2020/05/23 17:32:06 DEBUG [  worker@thread-14 ]                       o.s.Query : Parameters  => [site_url]
+2020/05/23 17:32:06 DEBUG [  worker@thread-14 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:32:06 DEBUG [  worker@thread-14 ]                       o.s.Query : Execute SQL => UPDATE t_options SET value = ? WHERE name = ?
+2020/05/23 17:32:06 DEBUG [  worker@thread-14 ]                       o.s.Query : Parameters  => [http://127.0.0.1:9000, site_url]
+2020/05/23 17:32:06 DEBUG [  worker@thread-14 ]                       o.s.Query : total: 1 ms; executed update [No name]
+2020/05/23 17:32:06 DEBUG [  worker@thread-14 ]                       o.s.Query : Execute SQL => SELECT * FROM t_options
+2020/05/23 17:32:06 DEBUG [  worker@thread-14 ]                       o.s.Query : Parameters  => []
+2020/05/23 17:32:06 DEBUG [  worker@thread-14 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:32:06  INFO [  worker@thread-14 ]       c.b.s.n.HttpServerHandler :  200   286ms  POST   /install
+2020/05/23 17:32:09  INFO [  worker@thread-14 ]               c.t.h.BaseWebHook : IP: 27.0.0.1, UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020/05/23 17:32:09  INFO [  worker@thread-14 ]       c.b.s.n.HttpServerHandler :  200   259ms  GET    /admin/login
+2020/05/23 17:32:09  INFO [  worker@thread-14 ]             j.t.JetTemplateImpl : Loading template: admin/login.html
+2020/05/23 17:32:20  INFO [  worker@thread-13 ]               c.t.h.BaseWebHook : IP: 27.0.0.1, UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020/05/23 17:32:20 DEBUG [  worker@thread-13 ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM t_users WHERE username = ? LIMIT 1
+2020/05/23 17:32:20 DEBUG [  worker@thread-13 ]                       o.s.Query : Parameters  => [jzwfan]
+2020/05/23 17:32:20 DEBUG [  worker@thread-13 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:32:20 DEBUG [  worker@thread-13 ]                       o.s.Query : Execute SQL => SELECT * FROM t_users WHERE username = ? AND password = ? LIMIT 1
+2020/05/23 17:32:20 DEBUG [  worker@thread-13 ]                       o.s.Query : Parameters  => [jzwfan, 9772597a236a2b2194f07d3478d60399]
+2020/05/23 17:32:20 DEBUG [  worker@thread-13 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:32:20 DEBUG [  worker@thread-13 ]                       o.s.Query : Execute SQL => UPDATE t_users SET logged = ? WHERE uid = ?
+2020/05/23 17:32:20 DEBUG [  worker@thread-13 ]                       o.s.Query : Parameters  => [1590226340, 2]
+2020/05/23 17:32:20 DEBUG [  worker@thread-13 ]                       o.s.Query : total: 1 ms; executed update [No name]
+2020/05/23 17:32:20  INFO [  worker@thread-13 ]          c.t.c.a.AuthController : 登录成功：jzwfan
+2020/05/23 17:32:20 DEBUG [  worker@thread-13 ]                       o.s.Query : Execute SQL => INSERT INTO t_logs(action, data, author_id, ip, created) VALUES (?, ?, ?, ?, ?)
+2020/05/23 17:32:20 DEBUG [  worker@thread-13 ]                       o.s.Query : Parameters  => [登录后台, username=jzwfan&password=fjkfnwfn3%23, 2, 27.0.0.1, 1590226340]
+2020/05/23 17:32:20 DEBUG [  worker@thread-13 ]                       o.s.Query : total: 1 ms; executed update [No name]
+2020/05/23 17:32:20  INFO [  worker@thread-13 ]       c.b.s.n.HttpServerHandler :  200   243ms  POST   /admin/login
+2020/05/23 17:32:20  INFO [  worker@thread-13 ]               c.t.h.BaseWebHook : IP: 27.0.0.1, UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020/05/23 17:32:20 DEBUG [  worker@thread-13 ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM t_comments WHERE status = ?
+2020/05/23 17:32:20 DEBUG [  worker@thread-13 ]                       o.s.Query : Parameters  => [approved]
+2020/05/23 17:32:20 DEBUG [  worker@thread-13 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:32:20 DEBUG [  worker@thread-13 ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM t_contents WHERE status = ? AND type = ?
+2020/05/23 17:32:20 DEBUG [  worker@thread-13 ]                       o.s.Query : Parameters  => [publish, post]
+2020/05/23 17:32:20 DEBUG [  worker@thread-13 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:32:20 DEBUG [  worker@thread-13 ]                       o.s.Query : Execute SQL => SELECT * FROM t_contents WHERE status = ? AND type = ? ORDER BY created DESC LIMIT 0,5
+2020/05/23 17:32:20 DEBUG [  worker@thread-13 ]                       o.s.Query : Parameters  => [publish, post]
+2020/05/23 17:32:20 DEBUG [  worker@thread-13 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:32:20 DEBUG [  worker@thread-13 ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM t_contents WHERE type = ? AND status = ? LIMIT 1
+2020/05/23 17:32:20 DEBUG [  worker@thread-13 ]                       o.s.Query : Parameters  => [post, publish]
+2020/05/23 17:32:20 DEBUG [  worker@thread-13 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:32:20 DEBUG [  worker@thread-13 ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM t_contents WHERE type = ? AND status = ? LIMIT 1
+2020/05/23 17:32:20 DEBUG [  worker@thread-13 ]                       o.s.Query : Parameters  => [page, publish]
+2020/05/23 17:32:20 DEBUG [  worker@thread-13 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:32:20 DEBUG [  worker@thread-13 ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM t_comments LIMIT 1
+2020/05/23 17:32:20 DEBUG [  worker@thread-13 ]                       o.s.Query : Parameters  => []
+2020/05/23 17:32:20 DEBUG [  worker@thread-13 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:32:20 DEBUG [  worker@thread-13 ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM t_attach LIMIT 1
+2020/05/23 17:32:20 DEBUG [  worker@thread-13 ]                       o.s.Query : Parameters  => []
+2020/05/23 17:32:20 DEBUG [  worker@thread-13 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:32:20 DEBUG [  worker@thread-13 ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM t_metas WHERE type = ? LIMIT 1
+2020/05/23 17:32:20 DEBUG [  worker@thread-13 ]                       o.s.Query : Parameters  => [tag]
+2020/05/23 17:32:20 DEBUG [  worker@thread-13 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:32:20 DEBUG [  worker@thread-13 ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM t_metas WHERE type = ? LIMIT 1
+2020/05/23 17:32:20 DEBUG [  worker@thread-13 ]                       o.s.Query : Parameters  => [category]
+2020/05/23 17:32:20 DEBUG [  worker@thread-13 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:32:20  INFO [  worker@thread-13 ]       c.b.s.n.HttpServerHandler :  200   262ms  GET    /admin/index
+2020/05/23 17:32:20  INFO [  worker@thread-13 ]             j.t.JetTemplateImpl : Loading template: admin/index.html
+2020/05/23 17:32:20  INFO [  worker@thread-13 ]             j.t.JetTemplateImpl : Loading template: admin/header.html
+2020/05/23 17:32:21  INFO [  worker@thread-13 ]             j.t.JetTemplateImpl : Loading template: admin/footer.html
+2020/05/23 17:32:21  WARN [   worker@thread-2 ] c.b.m.h.DefaultExceptionHandler :  404          GET    /static/admin/plugins/md5/md5.min.js.map
+2020/05/23 17:32:21  INFO [   worker@thread-5 ]               c.t.h.BaseWebHook : IP: 27.0.0.1, UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020/05/23 17:32:21  INFO [   worker@thread-4 ]               c.t.h.BaseWebHook : IP: 27.0.0.1, UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020/05/23 17:32:21 DEBUG [   worker@thread-5 ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM t_comments
+2020/05/23 17:32:21 DEBUG [   worker@thread-5 ]                       o.s.Query : Parameters  => []
+2020/05/23 17:32:21 DEBUG [   worker@thread-5 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:32:21 DEBUG [   worker@thread-4 ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM t_logs
+2020/05/23 17:32:21 DEBUG [   worker@thread-4 ]                       o.s.Query : Parameters  => []
+2020/05/23 17:32:21 DEBUG [   worker@thread-4 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:32:21  INFO [   worker@thread-5 ]       c.b.s.n.HttpServerHandler :  200   274ms  GET    /admin/api/comments
+2020/05/23 17:32:21 DEBUG [   worker@thread-4 ]                       o.s.Query : Execute SQL => SELECT * FROM t_logs ORDER BY id DESC LIMIT 0,8
+2020/05/23 17:32:21 DEBUG [   worker@thread-4 ]                       o.s.Query : Parameters  => []
+2020/05/23 17:32:21 DEBUG [   worker@thread-4 ]                       o.s.Query : Total       => 1 ms, execution: 0 ms, reading and parsing: 1 ms; executed [null]
+2020/05/23 17:32:21  INFO [   worker@thread-4 ]       c.b.s.n.HttpServerHandler :  200   279ms  GET    /admin/api/logs
+2020/05/23 17:32:28  INFO [   worker@thread-4 ]               c.t.h.BaseWebHook : IP: 27.0.0.1, UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020/05/23 17:32:28 DEBUG [   worker@thread-4 ]                       o.s.Query : Execute SQL => SELECT * FROM t_contents WHERE cid = ? LIMIT 1
+2020/05/23 17:32:28 DEBUG [   worker@thread-4 ]                       o.s.Query : Parameters  => [2]
+2020/05/23 17:32:28 DEBUG [   worker@thread-4 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:32:28 DEBUG [   worker@thread-4 ]                       o.s.Query : Execute SQL => UPDATE t_contents SET hits = ? WHERE cid = ?
+2020/05/23 17:32:28 DEBUG [   worker@thread-4 ]                       o.s.Query : Parameters  => [12, 2]
+2020/05/23 17:32:28 DEBUG [   worker@thread-4 ]                       o.s.Query : total: 1 ms; executed update [No name]
+2020/05/23 17:32:28  INFO [   worker@thread-4 ]       c.b.s.n.HttpServerHandler :  200   274ms  GET    /article/2
+2020/05/23 17:32:28  INFO [   worker@thread-4 ]             j.t.JetTemplateImpl : Loading template: themes/default/post.html
+2020/05/23 17:32:28  INFO [   worker@thread-4 ]             j.t.JetTemplateImpl : Loading template: themes/default/partial/header.html
+2020/05/23 17:32:28 DEBUG [   worker@thread-4 ]                       o.s.Query : Execute SQL => SELECT * FROM t_contents WHERE type = ? AND status = ? AND created < ? ORDER BY created DESC LIMIT 1
+2020/05/23 17:32:28 DEBUG [   worker@thread-4 ]                       o.s.Query : Parameters  => [post, publish, 1487861184]
+2020/05/23 17:32:28 DEBUG [   worker@thread-4 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:32:28 DEBUG [   worker@thread-4 ]                       o.s.Query : Execute SQL => SELECT * FROM t_contents WHERE type = ? AND status = ? AND created > ? ORDER BY created ASC LIMIT 1
+2020/05/23 17:32:28 DEBUG [   worker@thread-4 ]                       o.s.Query : Parameters  => [post, publish, 1487861184]
+2020/05/23 17:32:28 DEBUG [   worker@thread-4 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:32:28  INFO [   worker@thread-4 ]             j.t.JetTemplateImpl : Loading template: themes/default/partial/comments.html
+2020/05/23 17:32:28 DEBUG [   worker@thread-4 ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM t_comments WHERE cid = ? AND parent = ? AND status = ?
+2020/05/23 17:32:28 DEBUG [   worker@thread-4 ]                       o.s.Query : Parameters  => [2, 0, approved]
+2020/05/23 17:32:28 DEBUG [   worker@thread-4 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:32:28  INFO [   worker@thread-4 ]             j.t.JetTemplateImpl : Loading template: /comm/tale_comment.html
+2020/05/23 17:32:28  INFO [   worker@thread-4 ]             j.t.JetTemplateImpl : Loading template: themes/default/partial/footer.html
+2020/05/23 17:32:28  INFO [   worker@thread-4 ]             j.t.JetTemplateImpl : Loading template: themes/default/partial/social.html
+2020/05/23 17:32:28 DEBUG [   worker@thread-4 ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM t_contents WHERE status = ? AND type = ?
+2020/05/23 17:32:28 DEBUG [   worker@thread-4 ]                       o.s.Query : Parameters  => [publish, post]
+2020/05/23 17:32:28 DEBUG [   worker@thread-4 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:32:28 DEBUG [   worker@thread-4 ]                       o.s.Query : Execute SQL => SELECT * FROM t_contents WHERE status = ? AND type = ? ORDER BY created DESC LIMIT 0,8
+2020/05/23 17:32:28 DEBUG [   worker@thread-4 ]                       o.s.Query : Parameters  => [publish, post]
+2020/05/23 17:32:28 DEBUG [   worker@thread-4 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:32:28 DEBUG [   worker@thread-4 ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM t_comments WHERE status = ?
+2020/05/23 17:32:28 DEBUG [   worker@thread-4 ]                       o.s.Query : Parameters  => [approved]
+2020/05/23 17:32:28 DEBUG [   worker@thread-4 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:32:31  INFO [   worker@thread-4 ]               c.t.h.BaseWebHook : IP: 27.0.0.1, UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020/05/23 17:32:31  INFO [   worker@thread-4 ]       c.b.s.n.HttpServerHandler :  200   255ms  GET    /admin/article/new
+2020/05/23 17:32:31  INFO [   worker@thread-4 ]             j.t.JetTemplateImpl : Loading template: admin/article/new.html
+2020/05/23 17:32:31  INFO [   worker@thread-4 ]             j.t.JetTemplateImpl : Loading template: admin/article/_header.html
+2020/05/23 17:32:31  INFO [   worker@thread-4 ]             j.t.JetTemplateImpl : Loading template: admin/article/_footer.html
+2020/05/23 17:32:32  WARN [   worker@thread-8 ] c.b.m.h.DefaultExceptionHandler :  404          GET    /static/admin/plugins/mditor/css/mditor.min.css.map
+2020/05/23 17:32:32  WARN [   worker@thread-8 ] c.b.m.h.DefaultExceptionHandler :  404          GET    /static/admin/plugins/md5/md5.min.js.map
+2020/05/23 17:32:32  WARN [  worker@thread-13 ] c.b.m.h.DefaultExceptionHandler :  404          GET    /static/admin/plugins/vue-select/vue-select.js.map
+2020/05/23 17:34:10  INFO [  worker@thread-14 ]               c.t.h.BaseWebHook : IP: 27.0.0.1, UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020/05/23 17:34:10  INFO [  worker@thread-14 ]       c.b.s.n.HttpServerHandler :  200   259ms  GET    /admin/articles
+2020/05/23 17:34:10  INFO [  worker@thread-14 ]             j.t.JetTemplateImpl : Loading template: admin/articles.html
+2020/05/23 17:34:10  WARN [   worker@thread-4 ] c.b.m.h.DefaultExceptionHandler :  404          GET    /static/admin/plugins/md5/md5.min.js.map
+2020/05/23 17:34:10  INFO [   worker@thread-6 ]               c.t.h.BaseWebHook : IP: 27.0.0.1, UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020/05/23 17:34:10  INFO [   worker@thread-5 ]               c.t.h.BaseWebHook : IP: 27.0.0.1, UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020/05/23 17:34:10 DEBUG [   worker@thread-5 ]                       o.s.Query : Execute SQL => select a.*, count(b.cid) as count from t_metas a left join `t_relationships` b on a.mid = b.mid where a.type = ? group by a.mid order by count desc, a.mid desc limit ?
+2020/05/23 17:34:10 DEBUG [   worker@thread-5 ]                       o.s.Query : Parameters  => [category, 9999]
+2020/05/23 17:34:10 DEBUG [   worker@thread-6 ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM t_contents WHERE type = ?
+2020/05/23 17:34:10 DEBUG [   worker@thread-6 ]                       o.s.Query : Parameters  => [post]
+2020/05/23 17:34:10 DEBUG [   worker@thread-6 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:34:10 DEBUG [   worker@thread-6 ]                       o.s.Query : Execute SQL => SELECT cid,title,slug,created,modified,author_id,hits,type,fmt_type,thumb_img,tags,categories,status,comments_num,allow_comment,allow_ping,allow_feed FROM t_contents WHERE type = ? ORDER BY created desc LIMIT 0,12
+2020/05/23 17:34:10 DEBUG [   worker@thread-6 ]                       o.s.Query : Parameters  => [post]
+2020/05/23 17:34:10 DEBUG [   worker@thread-5 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:34:10 DEBUG [   worker@thread-6 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:34:10  INFO [   worker@thread-5 ]       c.b.s.n.HttpServerHandler :  200   274ms  GET    /admin/api/categories
+2020/05/23 17:34:10  INFO [   worker@thread-6 ]       c.b.s.n.HttpServerHandler :  200   273ms  GET    /admin/api/articles
+2020/05/23 17:34:13  INFO [   worker@thread-6 ]               c.t.h.BaseWebHook : IP: 27.0.0.1, UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020/05/23 17:34:13  INFO [   worker@thread-6 ]       c.b.s.n.HttpServerHandler :  200   254ms  GET    /admin/article/new
+2020/05/23 17:34:13  WARN [  worker@thread-15 ] c.b.m.h.DefaultExceptionHandler :  404          GET    /static/admin/plugins/mditor/css/mditor.min.css.map
+2020/05/23 17:34:13  WARN [  worker@thread-15 ] c.b.m.h.DefaultExceptionHandler :  404          GET    /static/admin/plugins/md5/md5.min.js.map
+2020/05/23 17:34:14  WARN [   worker@thread-1 ] c.b.m.h.DefaultExceptionHandler :  404          GET    /static/admin/plugins/vue-select/vue-select.js.map
+2020/05/23 17:34:14  INFO [   worker@thread-1 ]               c.t.h.BaseWebHook : IP: 27.0.0.1, UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020/05/23 17:34:14 DEBUG [   worker@thread-1 ]                       o.s.Query : Execute SQL => select a.*, count(b.cid) as count from t_metas a left join `t_relationships` b on a.mid = b.mid where a.type = ? group by a.mid order by count desc, a.mid desc limit ?
+2020/05/23 17:34:14 DEBUG [   worker@thread-1 ]                       o.s.Query : Parameters  => [category, 9999]
+2020/05/23 17:34:14 DEBUG [   worker@thread-1 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:34:14  INFO [   worker@thread-1 ]       c.b.s.n.HttpServerHandler :  200   273ms  GET    /admin/api/categories
+2020/05/23 17:34:15  INFO [   worker@thread-1 ]               c.t.h.BaseWebHook : IP: 27.0.0.1, UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020/05/23 17:34:15 DEBUG [   worker@thread-1 ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM t_comments WHERE status = ?
+2020/05/23 17:34:15 DEBUG [   worker@thread-1 ]                       o.s.Query : Parameters  => [approved]
+2020/05/23 17:34:15 DEBUG [   worker@thread-1 ]                       o.s.Query : Total       => 1 ms, execution: 0 ms, reading and parsing: 1 ms; executed [null]
+2020/05/23 17:34:15 DEBUG [   worker@thread-1 ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM t_contents WHERE status = ? AND type = ?
+2020/05/23 17:34:15 DEBUG [   worker@thread-1 ]                       o.s.Query : Parameters  => [publish, post]
+2020/05/23 17:34:15 DEBUG [   worker@thread-1 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:34:15 DEBUG [   worker@thread-1 ]                       o.s.Query : Execute SQL => SELECT * FROM t_contents WHERE status = ? AND type = ? ORDER BY created DESC LIMIT 0,5
+2020/05/23 17:34:15 DEBUG [   worker@thread-1 ]                       o.s.Query : Parameters  => [publish, post]
+2020/05/23 17:34:15 DEBUG [   worker@thread-1 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:34:15  INFO [   worker@thread-1 ]       c.b.s.n.HttpServerHandler :  200   259ms  GET    /admin/index
+2020/05/23 17:34:15  WARN [   worker@thread-3 ] c.b.m.h.DefaultExceptionHandler :  404          GET    /static/admin/plugins/md5/md5.min.js.map
+2020/05/23 17:34:16  INFO [   worker@thread-8 ]               c.t.h.BaseWebHook : IP: 27.0.0.1, UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020/05/23 17:34:16 DEBUG [   worker@thread-8 ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM t_logs
+2020/05/23 17:34:16 DEBUG [   worker@thread-8 ]                       o.s.Query : Parameters  => []
+2020/05/23 17:34:16  INFO [   worker@thread-9 ]               c.t.h.BaseWebHook : IP: 27.0.0.1, UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020/05/23 17:34:16 DEBUG [   worker@thread-8 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:34:16 DEBUG [   worker@thread-8 ]                       o.s.Query : Execute SQL => SELECT * FROM t_logs ORDER BY id DESC LIMIT 0,8
+2020/05/23 17:34:16 DEBUG [   worker@thread-9 ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM t_comments
+2020/05/23 17:34:16 DEBUG [   worker@thread-8 ]                       o.s.Query : Parameters  => []
+2020/05/23 17:34:16 DEBUG [   worker@thread-9 ]                       o.s.Query : Parameters  => []
+2020/05/23 17:34:16 DEBUG [   worker@thread-8 ]                       o.s.Query : Total       => 1 ms, execution: 0 ms, reading and parsing: 1 ms; executed [null]
+2020/05/23 17:34:16 DEBUG [   worker@thread-9 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:34:16  INFO [   worker@thread-9 ]       c.b.s.n.HttpServerHandler :  200   263ms  GET    /admin/api/comments
+2020/05/23 17:34:16  INFO [   worker@thread-8 ]       c.b.s.n.HttpServerHandler :  200   263ms  GET    /admin/api/logs
+2020/05/23 17:34:17  INFO [   worker@thread-8 ]               c.t.h.BaseWebHook : IP: 27.0.0.1, UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020/05/23 17:34:17  INFO [   worker@thread-8 ]       c.b.s.n.HttpServerHandler :  200   255ms  GET    /admin/attaches
+2020/05/23 17:34:17  INFO [   worker@thread-8 ]             j.t.JetTemplateImpl : Loading template: admin/attaches.html
+2020/05/23 17:34:17  WARN [   worker@thread-4 ] c.b.m.h.DefaultExceptionHandler :  404          GET    /static/admin/plugins/md5/md5.min.js.map
+2020/05/23 17:34:17  INFO [   worker@thread-3 ]               c.t.h.BaseWebHook : IP: 27.0.0.1, UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020/05/23 17:34:17 DEBUG [   worker@thread-3 ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM t_attach
+2020/05/23 17:34:17 DEBUG [   worker@thread-3 ]                       o.s.Query : Parameters  => []
+2020/05/23 17:34:17 DEBUG [   worker@thread-3 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:34:17  INFO [   worker@thread-3 ]       c.b.s.n.HttpServerHandler :  200   262ms  GET    /admin/api/attaches
+2020/05/23 17:34:28  INFO [   worker@thread-3 ]               c.t.h.BaseWebHook : IP: 27.0.0.1, UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020/05/23 17:34:28  INFO [   worker@thread-3 ]       c.b.s.n.HttpServerHandler :  200   253ms  GET    /admin/comments
+2020/05/23 17:34:28  INFO [   worker@thread-3 ]             j.t.JetTemplateImpl : Loading template: admin/comments.html
+2020/05/23 17:34:28  WARN [  worker@thread-10 ] c.b.m.h.DefaultExceptionHandler :  404          GET    /static/admin/plugins/md5/md5.min.js.map
+2020/05/23 17:34:29  INFO [  worker@thread-11 ]               c.t.h.BaseWebHook : IP: 27.0.0.1, UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020/05/23 17:34:29 DEBUG [  worker@thread-11 ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM t_comments
+2020/05/23 17:34:29 DEBUG [  worker@thread-11 ]                       o.s.Query : Parameters  => []
+2020/05/23 17:34:29 DEBUG [  worker@thread-11 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:34:29  INFO [  worker@thread-11 ]       c.b.s.n.HttpServerHandler :  200   268ms  GET    /admin/api/comments
+2020/05/23 17:34:30  INFO [  worker@thread-11 ]               c.t.h.BaseWebHook : IP: 27.0.0.1, UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020/05/23 17:34:30  INFO [  worker@thread-11 ]       c.b.s.n.HttpServerHandler :  200   255ms  GET    /admin/themes
+2020/05/23 17:34:30  INFO [  worker@thread-11 ]             j.t.JetTemplateImpl : Loading template: admin/themes.html
+2020/05/23 17:34:31  WARN [   worker@thread-6 ] c.b.m.h.DefaultExceptionHandler :  404          GET    /static/admin/plugins/md5/md5.min.js.map
+2020/05/23 17:34:31  INFO [   worker@thread-1 ]               c.t.h.BaseWebHook : IP: 27.0.0.1, UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020/05/23 17:34:31  INFO [   worker@thread-1 ]       c.b.s.n.HttpServerHandler :  200   260ms  GET    /admin/api/themes
+2020/05/23 17:34:33  INFO [   worker@thread-3 ]               c.t.h.BaseWebHook : IP: 27.0.0.1, UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020/05/23 17:34:33  INFO [   worker@thread-3 ]       c.b.s.n.HttpServerHandler :  200   255ms  GET    /admin/setting
+2020/05/23 17:34:33  INFO [   worker@thread-3 ]             j.t.JetTemplateImpl : Loading template: admin/setting.html
+2020/05/23 17:34:33  WARN [  worker@thread-15 ] c.b.m.h.DefaultExceptionHandler :  404          GET    /static/admin/plugins/md5/md5.min.js.map
+2020/05/23 17:34:33  INFO [  worker@thread-11 ]               c.t.h.BaseWebHook : IP: 27.0.0.1, UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020/05/23 17:34:33 DEBUG [  worker@thread-11 ]                       o.s.Query : Execute SQL => SELECT * FROM t_options
+2020/05/23 17:34:33 DEBUG [  worker@thread-11 ]                       o.s.Query : Parameters  => []
+2020/05/23 17:34:33 DEBUG [  worker@thread-11 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:34:33  INFO [  worker@thread-11 ]       c.b.s.n.HttpServerHandler :  200   272ms  GET    /admin/api/options
+2020/05/23 17:34:59  INFO [  worker@thread-11 ]               c.t.h.BaseWebHook : IP: 27.0.0.1, UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020/05/23 17:34:59  INFO [  worker@thread-11 ]       c.b.s.n.HttpServerHandler :  200   266ms  GET    /
+2020/05/23 17:34:59  INFO [  worker@thread-11 ]             j.t.JetTemplateImpl : Loading template: themes/default/index.html
+2020/05/23 17:34:59 DEBUG [  worker@thread-11 ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM t_contents WHERE type = ? AND status = ?
+2020/05/23 17:34:59 DEBUG [  worker@thread-11 ]                       o.s.Query : Parameters  => [post, publish]
+2020/05/23 17:34:59 DEBUG [  worker@thread-11 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:34:59 DEBUG [  worker@thread-11 ]                       o.s.Query : Execute SQL => SELECT * FROM t_contents WHERE type = ? AND status = ? ORDER BY created DESC LIMIT 0,12
+2020/05/23 17:34:59 DEBUG [  worker@thread-11 ]                       o.s.Query : Parameters  => [post, publish]
+2020/05/23 17:34:59 DEBUG [  worker@thread-11 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:34:59 DEBUG [  worker@thread-11 ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM t_contents WHERE type = ? AND status = ?
+2020/05/23 17:34:59 DEBUG [  worker@thread-11 ]                       o.s.Query : Parameters  => [post, publish]
+2020/05/23 17:34:59 DEBUG [  worker@thread-11 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:34:59 DEBUG [  worker@thread-11 ]                       o.s.Query : Execute SQL => SELECT * FROM t_contents WHERE type = ? AND status = ? ORDER BY created DESC LIMIT 0,12
+2020/05/23 17:34:59 DEBUG [  worker@thread-11 ]                       o.s.Query : Parameters  => [post, publish]
+2020/05/23 17:34:59 DEBUG [  worker@thread-11 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:34:59 DEBUG [  worker@thread-11 ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM t_contents WHERE status = ? AND type = ?
+2020/05/23 17:34:59 DEBUG [  worker@thread-11 ]                       o.s.Query : Parameters  => [publish, post]
+2020/05/23 17:34:59 DEBUG [  worker@thread-11 ]                       o.s.Query : Total       => 1 ms, execution: 0 ms, reading and parsing: 1 ms; executed [null]
+2020/05/23 17:34:59 DEBUG [  worker@thread-11 ]                       o.s.Query : Execute SQL => SELECT * FROM t_contents WHERE status = ? AND type = ? ORDER BY created DESC LIMIT 0,8
+2020/05/23 17:34:59 DEBUG [  worker@thread-11 ]                       o.s.Query : Parameters  => [publish, post]
+2020/05/23 17:34:59 DEBUG [  worker@thread-11 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:34:59 DEBUG [  worker@thread-11 ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM t_comments WHERE status = ?
+2020/05/23 17:34:59 DEBUG [  worker@thread-11 ]                       o.s.Query : Parameters  => [approved]
+2020/05/23 17:34:59 DEBUG [  worker@thread-11 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:36:02  INFO [  worker@thread-11 ]               c.t.h.BaseWebHook : IP: 27.0.0.1, UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020/05/23 17:36:02  INFO [  worker@thread-11 ]       c.b.s.n.HttpServerHandler :  200   257ms  GET    /admin/articles
+2020/05/23 17:36:02  WARN [   worker@thread-8 ] c.b.m.h.DefaultExceptionHandler :  404          GET    /static/admin/plugins/md5/md5.min.js.map
+2020/05/23 17:36:02  INFO [   worker@thread-4 ]               c.t.h.BaseWebHook : IP: 27.0.0.1, UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020/05/23 17:36:02 DEBUG [   worker@thread-4 ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM t_contents WHERE type = ?
+2020/05/23 17:36:02 DEBUG [   worker@thread-4 ]                       o.s.Query : Parameters  => [post]
+2020/05/23 17:36:02 DEBUG [   worker@thread-4 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:36:02 DEBUG [   worker@thread-4 ]                       o.s.Query : Execute SQL => SELECT cid,title,slug,created,modified,author_id,hits,type,fmt_type,thumb_img,tags,categories,status,comments_num,allow_comment,allow_ping,allow_feed FROM t_contents WHERE type = ? ORDER BY created desc LIMIT 0,12
+2020/05/23 17:36:02 DEBUG [   worker@thread-4 ]                       o.s.Query : Parameters  => [post]
+2020/05/23 17:36:02 DEBUG [   worker@thread-4 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:36:02  INFO [   worker@thread-4 ]       c.b.s.n.HttpServerHandler :  200   267ms  GET    /admin/api/articles
+2020/05/23 17:36:02  INFO [   worker@thread-3 ]               c.t.h.BaseWebHook : IP: 27.0.0.1, UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020/05/23 17:36:02 DEBUG [   worker@thread-3 ]                       o.s.Query : Execute SQL => select a.*, count(b.cid) as count from t_metas a left join `t_relationships` b on a.mid = b.mid where a.type = ? group by a.mid order by count desc, a.mid desc limit ?
+2020/05/23 17:36:02 DEBUG [   worker@thread-3 ]                       o.s.Query : Parameters  => [category, 9999]
+2020/05/23 17:36:02 DEBUG [   worker@thread-3 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:36:02  INFO [   worker@thread-3 ]       c.b.s.n.HttpServerHandler :  200   274ms  GET    /admin/api/categories
+2020/05/23 17:36:04  INFO [   worker@thread-3 ]               c.t.h.BaseWebHook : IP: 27.0.0.1, UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020/05/23 17:36:04  INFO [   worker@thread-3 ]       c.b.s.n.HttpServerHandler :  200   254ms  GET    /admin/article/new
+2020/05/23 17:36:04  WARN [  worker@thread-12 ] c.b.m.h.DefaultExceptionHandler :  404          GET    /static/admin/plugins/mditor/css/mditor.min.css.map
+2020/05/23 17:36:04  WARN [  worker@thread-12 ] c.b.m.h.DefaultExceptionHandler :  404          GET    /static/admin/plugins/md5/md5.min.js.map
+2020/05/23 17:36:04  WARN [  worker@thread-16 ] c.b.m.h.DefaultExceptionHandler :  404          GET    /static/admin/plugins/vue-select/vue-select.js.map
+2020/05/23 17:36:04  INFO [  worker@thread-16 ]               c.t.h.BaseWebHook : IP: 27.0.0.1, UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020/05/23 17:36:04 DEBUG [  worker@thread-16 ]                       o.s.Query : Execute SQL => select a.*, count(b.cid) as count from t_metas a left join `t_relationships` b on a.mid = b.mid where a.type = ? group by a.mid order by count desc, a.mid desc limit ?
+2020/05/23 17:36:04 DEBUG [  worker@thread-16 ]                       o.s.Query : Parameters  => [category, 9999]
+2020/05/23 17:36:04 DEBUG [  worker@thread-16 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:36:04  INFO [  worker@thread-16 ]       c.b.s.n.HttpServerHandler :  200   275ms  GET    /admin/api/categories
+2020/05/23 17:36:13  INFO [  worker@thread-16 ]               c.t.h.BaseWebHook : IP: 27.0.0.1, UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020/05/23 17:36:13 DEBUG [  worker@thread-16 ]                       o.s.Query : Execute SQL => INSERT INTO t_contents(title, created, modified, content, author_id, hits, type, fmt_type, thumb_img, tags, categories, status, comments_num, allow_comment, allow_ping, allow_feed) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2020/05/23 17:36:13 DEBUG [  worker@thread-16 ]                       o.s.Query : Parameters  => [1234r, 1590226573, 1590226573, #wwww, 2, 0, post, markdown, , , 默认分类, publish, 0, true, true, true]
+2020/05/23 17:36:13 DEBUG [  worker@thread-16 ]                       o.s.Query : total: 2 ms; executed update [No name]
+2020/05/23 17:36:13 DEBUG [  worker@thread-16 ]                       o.s.Query : Execute SQL => SELECT * FROM t_metas WHERE name = ? AND type = ? LIMIT 1
+2020/05/23 17:36:13 DEBUG [  worker@thread-16 ]                       o.s.Query : Parameters  => [默认分类, category]
+2020/05/23 17:36:13 DEBUG [  worker@thread-16 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:36:13 DEBUG [  worker@thread-16 ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM t_relationships WHERE cid = ? AND mid = ? LIMIT 1
+2020/05/23 17:36:13 DEBUG [  worker@thread-16 ]                       o.s.Query : Parameters  => [4, 1]
+2020/05/23 17:36:13 DEBUG [  worker@thread-16 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:36:13 DEBUG [  worker@thread-16 ]                       o.s.Query : Execute SQL => INSERT INTO t_relationships(cid, mid) VALUES (?, ?)
+2020/05/23 17:36:13 DEBUG [  worker@thread-16 ]                       o.s.Query : Parameters  => [4, 1]
+2020/05/23 17:36:13 DEBUG [  worker@thread-16 ]                       o.s.Query : total: 1 ms; executed update [No name]
+2020/05/23 17:36:13  INFO [  worker@thread-16 ]       c.b.s.n.HttpServerHandler :  200   270ms  POST   /admin/api/article/new
+2020/05/23 17:36:15  INFO [  worker@thread-16 ]               c.t.h.BaseWebHook : IP: 27.0.0.1, UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020/05/23 17:36:15  INFO [  worker@thread-16 ]       c.b.s.n.HttpServerHandler :  200   278ms  GET    /admin/articles
+2020/05/23 17:36:16  WARN [  worker@thread-12 ] c.b.m.h.DefaultExceptionHandler :  404          GET    /static/admin/plugins/md5/md5.min.js.map
+2020/05/23 17:36:16  INFO [   worker@thread-7 ]               c.t.h.BaseWebHook : IP: 27.0.0.1, UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020/05/23 17:36:16 DEBUG [   worker@thread-7 ]                       o.s.Query : Execute SQL => select a.*, count(b.cid) as count from t_metas a left join `t_relationships` b on a.mid = b.mid where a.type = ? group by a.mid order by count desc, a.mid desc limit ?
+2020/05/23 17:36:16 DEBUG [   worker@thread-7 ]                       o.s.Query : Parameters  => [category, 9999]
+2020/05/23 17:36:16 DEBUG [   worker@thread-7 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:36:16  INFO [   worker@thread-7 ]       c.b.s.n.HttpServerHandler :  200   268ms  GET    /admin/api/categories
+2020/05/23 17:36:16  INFO [   worker@thread-8 ]               c.t.h.BaseWebHook : IP: 27.0.0.1, UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020/05/23 17:36:16 DEBUG [   worker@thread-8 ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM t_contents WHERE type = ?
+2020/05/23 17:36:16 DEBUG [   worker@thread-8 ]                       o.s.Query : Parameters  => [post]
+2020/05/23 17:36:16 DEBUG [   worker@thread-8 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:36:16 DEBUG [   worker@thread-8 ]                       o.s.Query : Execute SQL => SELECT cid,title,slug,created,modified,author_id,hits,type,fmt_type,thumb_img,tags,categories,status,comments_num,allow_comment,allow_ping,allow_feed FROM t_contents WHERE type = ? ORDER BY created desc LIMIT 0,12
+2020/05/23 17:36:16 DEBUG [   worker@thread-8 ]                       o.s.Query : Parameters  => [post]
+2020/05/23 17:36:16 DEBUG [   worker@thread-8 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:36:16  INFO [   worker@thread-8 ]       c.b.s.n.HttpServerHandler :  200   269ms  GET    /admin/api/articles
+2020/05/23 17:36:35  INFO [   worker@thread-8 ]               c.t.h.BaseWebHook : IP: 27.0.0.1, UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020/05/23 17:36:35  INFO [   worker@thread-8 ]       c.b.s.n.HttpServerHandler :  200   267ms  GET    /
+2020/05/23 17:36:35 DEBUG [   worker@thread-8 ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM t_contents WHERE type = ? AND status = ?
+2020/05/23 17:36:35 DEBUG [   worker@thread-8 ]                       o.s.Query : Parameters  => [post, publish]
+2020/05/23 17:36:35 DEBUG [   worker@thread-8 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:36:35 DEBUG [   worker@thread-8 ]                       o.s.Query : Execute SQL => SELECT * FROM t_contents WHERE type = ? AND status = ? ORDER BY created DESC LIMIT 0,12
+2020/05/23 17:36:35 DEBUG [   worker@thread-8 ]                       o.s.Query : Parameters  => [post, publish]
+2020/05/23 17:36:35 DEBUG [   worker@thread-8 ]                       o.s.Query : Total       => 1 ms, execution: 0 ms, reading and parsing: 1 ms; executed [null]
+2020/05/23 17:36:35 DEBUG [   worker@thread-8 ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM t_contents WHERE type = ? AND status = ?
+2020/05/23 17:36:35 DEBUG [   worker@thread-8 ]                       o.s.Query : Parameters  => [post, publish]
+2020/05/23 17:36:35 DEBUG [   worker@thread-8 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:36:35 DEBUG [   worker@thread-8 ]                       o.s.Query : Execute SQL => SELECT * FROM t_contents WHERE type = ? AND status = ? ORDER BY created DESC LIMIT 0,12
+2020/05/23 17:36:35 DEBUG [   worker@thread-8 ]                       o.s.Query : Parameters  => [post, publish]
+2020/05/23 17:36:35 DEBUG [   worker@thread-8 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:36:35 DEBUG [   worker@thread-8 ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM t_contents WHERE status = ? AND type = ?
+2020/05/23 17:36:35 DEBUG [   worker@thread-8 ]                       o.s.Query : Parameters  => [publish, post]
+2020/05/23 17:36:35 DEBUG [   worker@thread-8 ]                       o.s.Query : Total       => 1 ms, execution: 0 ms, reading and parsing: 1 ms; executed [null]
+2020/05/23 17:36:35 DEBUG [   worker@thread-8 ]                       o.s.Query : Execute SQL => SELECT * FROM t_contents WHERE status = ? AND type = ? ORDER BY created DESC LIMIT 0,8
+2020/05/23 17:36:35 DEBUG [   worker@thread-8 ]                       o.s.Query : Parameters  => [publish, post]
+2020/05/23 17:36:35 DEBUG [   worker@thread-8 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:36:35 DEBUG [   worker@thread-8 ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM t_comments WHERE status = ?
+2020/05/23 17:36:35 DEBUG [   worker@thread-8 ]                       o.s.Query : Parameters  => [approved]
+2020/05/23 17:36:35 DEBUG [   worker@thread-8 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:36:41  INFO [   worker@thread-7 ]               c.t.h.BaseWebHook : IP: 27.0.0.1, UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020/05/23 17:36:41 DEBUG [   worker@thread-7 ]                       o.s.Query : Execute SQL => select a.*, count(b.cid) as count from t_metas a left join `t_relationships` b on a.mid = b.mid where a.type = ? and a.name = ? group by a.mid
+2020/05/23 17:36:41 DEBUG [   worker@thread-7 ]                       o.s.Query : Parameters  => [category, 默认分类]
+2020/05/23 17:36:41 DEBUG [   worker@thread-7 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:36:41 DEBUG [   worker@thread-7 ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM (select a.* from t_contents a left join t_relationships b on a.cid = b.cid where b.mid = ? and a.status = 'publish' and a.type = 'post' order by a.created desc) tmp
+2020/05/23 17:36:41 DEBUG [   worker@thread-7 ]                       o.s.Query : Parameters  => [1]
+2020/05/23 17:36:41 DEBUG [   worker@thread-7 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:36:41 DEBUG [   worker@thread-7 ]                       o.s.Query : Execute SQL => select a.* from t_contents a left join t_relationships b on a.cid = b.cid where b.mid = ? and a.status = 'publish' and a.type = 'post' order by a.created desc LIMIT 0,12
+2020/05/23 17:36:41 DEBUG [   worker@thread-7 ]                       o.s.Query : Parameters  => [1]
+2020/05/23 17:36:41 DEBUG [   worker@thread-7 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:36:41  INFO [   worker@thread-7 ]       c.b.s.n.HttpServerHandler :  200   271ms  GET    /category/%E9%BB%98%E8%AE%A4%E5%88%86%E7%B1%BB
+2020/05/23 17:36:41  INFO [   worker@thread-7 ]             j.t.JetTemplateImpl : Loading template: themes/default/page-category.html
+2020/05/23 17:36:41 DEBUG [   worker@thread-7 ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM t_contents WHERE status = ? AND type = ?
+2020/05/23 17:36:41 DEBUG [   worker@thread-7 ]                       o.s.Query : Parameters  => [publish, post]
+2020/05/23 17:36:41 DEBUG [   worker@thread-7 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:36:41 DEBUG [   worker@thread-7 ]                       o.s.Query : Execute SQL => SELECT * FROM t_contents WHERE status = ? AND type = ? ORDER BY created DESC LIMIT 0,8
+2020/05/23 17:36:41 DEBUG [   worker@thread-7 ]                       o.s.Query : Parameters  => [publish, post]
+2020/05/23 17:36:41 DEBUG [   worker@thread-7 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:36:41 DEBUG [   worker@thread-7 ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM t_comments WHERE status = ?
+2020/05/23 17:36:41 DEBUG [   worker@thread-7 ]                       o.s.Query : Parameters  => [approved]
+2020/05/23 17:36:41 DEBUG [   worker@thread-7 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:36:46  INFO [   worker@thread-7 ]               c.t.h.BaseWebHook : IP: 27.0.0.1, UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+2020/05/23 17:36:46 DEBUG [   worker@thread-7 ]                       o.s.Query : Execute SQL => SELECT * FROM t_contents WHERE cid = ? LIMIT 1
+2020/05/23 17:36:46 DEBUG [   worker@thread-7 ]                       o.s.Query : Parameters  => [4]
+2020/05/23 17:36:46 DEBUG [   worker@thread-7 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:36:46 DEBUG [   worker@thread-7 ]                       o.s.Query : Execute SQL => UPDATE t_contents SET hits = ? WHERE cid = ?
+2020/05/23 17:36:46 DEBUG [   worker@thread-7 ]                       o.s.Query : Parameters  => [1, 4]
+2020/05/23 17:36:46 DEBUG [   worker@thread-7 ]                       o.s.Query : total: 1 ms; executed update [No name]
+2020/05/23 17:36:46  INFO [   worker@thread-7 ]       c.b.s.n.HttpServerHandler :  200   259ms  GET    /article/4
+2020/05/23 17:36:46 DEBUG [   worker@thread-7 ]                       o.s.Query : Execute SQL => SELECT * FROM t_contents WHERE type = ? AND status = ? AND created < ? ORDER BY created DESC LIMIT 1
+2020/05/23 17:36:46 DEBUG [   worker@thread-7 ]                       o.s.Query : Parameters  => [post, publish, 1590226573]
+2020/05/23 17:36:46 DEBUG [   worker@thread-7 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:36:46 DEBUG [   worker@thread-7 ]                       o.s.Query : Execute SQL => SELECT * FROM t_contents WHERE type = ? AND status = ? AND created > ? ORDER BY created ASC LIMIT 1
+2020/05/23 17:36:46 DEBUG [   worker@thread-7 ]                       o.s.Query : Parameters  => [post, publish, 1590226573]
+2020/05/23 17:36:46 DEBUG [   worker@thread-7 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:36:46 DEBUG [   worker@thread-7 ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM t_comments WHERE cid = ? AND parent = ? AND status = ?
+2020/05/23 17:36:46 DEBUG [   worker@thread-7 ]                       o.s.Query : Parameters  => [4, 0, approved]
+2020/05/23 17:36:46 DEBUG [   worker@thread-7 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:36:46 DEBUG [   worker@thread-7 ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM t_contents WHERE status = ? AND type = ?
+2020/05/23 17:36:46 DEBUG [   worker@thread-7 ]                       o.s.Query : Parameters  => [publish, post]
+2020/05/23 17:36:46 DEBUG [   worker@thread-7 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:36:46 DEBUG [   worker@thread-7 ]                       o.s.Query : Execute SQL => SELECT * FROM t_contents WHERE status = ? AND type = ? ORDER BY created DESC LIMIT 0,8
+2020/05/23 17:36:46 DEBUG [   worker@thread-7 ]                       o.s.Query : Parameters  => [publish, post]
+2020/05/23 17:36:46 DEBUG [   worker@thread-7 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2020/05/23 17:36:46 DEBUG [   worker@thread-7 ]                       o.s.Query : Execute SQL => SELECT COUNT(*) FROM t_comments WHERE status = ?
+2020/05/23 17:36:46 DEBUG [   worker@thread-7 ]                       o.s.Query : Parameters  => [approved]
+2020/05/23 17:36:46 DEBUG [   worker@thread-7 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
